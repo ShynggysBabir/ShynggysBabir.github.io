@@ -2,135 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About me</title>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shynggys Babir - Business Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 20px 0 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .social-icons a {
+            color: #007BFF;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #0056b3;
+        }
+        .skills, .portfolio {
+            margin: 50px 0;
+        }
+        .skills ul, .portfolio ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills ul li, .portfolio ul li {
+            background: #f1f1f1;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .resume {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .resume a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .resume a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="main">
-        <div class="header">
-            <a href="#">
-                <span>EN</span>
-            </a>
-            <span>|</span>
-            <a href="/ru">
-                <span>RU</span>
-            </a>
+<div class="container">
+    <header>
+        <h1>Shynggys Babir</h1>
+        <p>Business Data Analyst in Pharmaceutical Industry</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:your.email@example.com" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
-        <div class="content">
-            <div class="content__hello">
-                <img class="content__hello-img" src="assets/img/avatar.png" alt="Avatar">
-                <div class="content__hello-text">
-                    <span class="content__name">
-                        <a href="/"> Hey, I'm Shynggys.</a>
-                    </span>
-                    <span class="content__description">Business Data Analyst in the pharmaceutical industry<br/> 7+ years of experience in data analysis, BI, and analytics solutions</span>
-                    <nav class="content__social">
-                        <a href="https://www.linkedin.com/in/shynggys-babir" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/in.svg" alt="LinkedIn">
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="https://github.com/shynggys-babir" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/github.svg" alt="GitHub">
-                            <span>GitHub</span>
-                        </a>
-                        <a href="mailto:shynggys@example.com" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/email.svg" alt="Email">
-                            <span>Email</span>
-                        </a>
-                        <a href="https://t.me/shynggys" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/telegram.svg" alt="Telegram">
-                            <span>Telegram</span>
-                        </a>
-                    </nav>
-                </div>
-            </div>
-            <div class="content__main">
-                <div class="content__main-item">
-                    <div class="main-item__description">
-                        <p>I am a Business Data Analyst with proven ability to gather and translate business requirements into actionable insights. My expertise lies in data visualization, data modeling, ETL processes, and working with tools like Salesforce, IQVIA, and SPOT2D applications.</p>
-                    </div>
-                </div>
-                <h2 class="content__subheader">Skills</h2>
-                <div class="content__main-item">
-                    <div class="main-item__description">
-                        <ul>
-                            <li>Data Analysis</li>
-                            <li>Business Intelligence</li>
-                            <li>Data Visualization</li>
-                            <li>Salesforce</li>
-                            <li>IQVIA</li>
-                            <li>SPOT2D</li>
-                            <li>Data Modeling</li>
-                            <li>ETL Processes</li>
-                        </ul>
-                    </div>
-                </div>
-                <h2 class="content__subheader">Projects</h2>
-                <div class="content__main-item project">
-                    <a data-fslightbox href="assets/img/project1.png">
-                        <img src="assets/img/project1.png" alt="Pharmaceutical Market Analysis">
-                    </a>
-                    <div>
-                        <div class="main-item__title">
-                            <a href="#"><span>Pharmaceutical Market Analysis</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>Analyzed market trends, sales data, and customer insights to support business strategies and decision-making.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Tools:</span> Salesforce, Power BI, Excel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="content__main-item project">
-                    <a data-fslightbox href="assets/img/project2.png">
-                        <img src="assets/img/project2.png" alt="Salesforce Dashboard">
-                    </a>
-                    <div>
-                        <div class="main-item__title">
-                            <a href="#"><span>Salesforce Dashboard</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>Designed interactive dashboards for tracking sales performance and key business metrics.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Tools:</span> Salesforce, Power BI, Tableau</p>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="content__subheader">Posts</h2>
-                <div class="content__main-item post">
-                    <article>
-                        <h2 class="main-item__title">
-                            <a href="#">Business Insights and Analytics Tips</a>
-                        </h2>
-                        <p class="main-item__date">May 24, 2025</p>
-                        <div class="main-item__description">
-                            <p>Exploring the importance of clear, actionable data insights in the pharmaceutical industry.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div>
-                <span>© Shynggys Babir</span>
-            </div>
-            <div>
-                <nav class="footer__social">
-                    <a href="https://www.linkedin.com/in/shynggys-babir" target="_blank" class="footer__social-item">
-                        <img src="assets/img/icons/in.svg" alt="LinkedIn">
-                    </a>
-                    <a href="https://github.com/shynggys-babir" target="_blank" class="footer__social-item">
-                        <img src="assets/img/icons/github.svg" alt="GitHub">
-                    </a>
-                    <a href="https://t.me/shynggys" target="_blank" class="footer__social-item">
-                        <img src="assets/img/icons/telegram.svg" alt="Telegram">
-                    </a>
-                </nav>
-            </div>
-        </div>
+        <p>I am a Business Data Analyst in the pharmaceutical industry with 7+ years of experience in data analysis, business intelligence, and analytics solutions. Proven ability to gather and translate business requirements into actionable insights. Expertise in data visualization, data modeling, ETL processes, and working with Salesforce, IQVIA, SPOT2D applications.</p>
+    </header>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Business Intelligence</li>
+            <li>Data Visualization</li>
+            <li>Salesforce</li>
+            <li>IQVIA</li>
+            <li>SPOT2D</li>
+            <li>Data Modeling</li>
+            <li>ETL Processes</li>
+        </ul>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <ul>
+            <li>Pharmaceutical Market Analysis</li>
+            <li>Salesforce Data Visualization Dashboard</li>
+            <li>IQVIA Data Insights Project</li>
+            <li>ETL Process Automation Pipeline</li>
+        </ul>
+    </section>
+
+    <div class="resume">
+        <a href="https://yourdomain.com/your_resume.pdf" target="_blank">Download Resume</a>
     </div>
-    <script src="assets/scripts/fslightbox.js"></script>
+</div>
 </body>
 </html>
