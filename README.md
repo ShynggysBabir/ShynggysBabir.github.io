@@ -1,2 +1,2 @@
-# ShynggysBabir.github.io
+# ShynggysBabir
 Portfolio site
